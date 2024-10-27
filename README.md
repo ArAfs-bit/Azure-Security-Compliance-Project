@@ -10,7 +10,7 @@ This project demonstrates the implementation of essential security and complianc
 - [Prerequisites](#prerequisites)
 - [Setup Steps](#setup-steps)
   - [1. Resource Group Creation](#1-resource-group-creation)
-  - [2. Configure Identity and Access Management (IAM) ](#2-configure-Role-based-IAM)
+  - [2. Configure Identity and Access Management (IAM) ](#2-configure-identity-and-access-management-IAM)
   - [3. Network Security Group (NSG) Configuration](#2-network-security-group-nsg-configuration)
   - [4. Associating NSG with a Subnet](#3-associating-nsg-with-a-subnet)
   - [5. Enabling Microsoft Defender for Cloud](#4-enabling-microsoft-defender-for-cloud)

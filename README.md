@@ -23,7 +23,7 @@ This project demonstrates the implementation of essential security and complianc
 
 ## Project Overview
 
-The goal of this project is to apply security best practices in Microsoft Azure to monitor and improve compliance. This includes configuring Network Security Groups to control network traffic, setting up Multi-Factor Authentication (MFA), and monitoring compliance through Microsoft Defender for Cloud.
+The goal of this project is to apply security best practices in Microsoft Azure to monitor and improve compliance. This includes configuring Network Security Groups to control network traffic, setting up role-based access control (RBAC), and monitoring compliance through Microsoft Defender for Cloud.
 
 ## Prerequisites
 

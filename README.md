@@ -125,7 +125,7 @@ Due to the **standard subscription**, some advanced compliance and MFA settings 
 
 ## Results
 
-This project demonstrates how to set up basic security controls and compliance monitoring in Microsoft Azure. It includes traffic control with NSGs, basic MFA setup, and Microsoft Defender for Cloud compliance monitoring.
+This project demonstrates how to set up basic security controls and compliance monitoring in Microsoft Azure. It includes traffic control with NSGs, basic RBAC setup, and Microsoft Defender for Cloud compliance monitoring.
 
 ## Screenshots
 

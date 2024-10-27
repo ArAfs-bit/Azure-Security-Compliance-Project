@@ -41,7 +41,11 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Select a region, review, and click **Create**.
 - ![Resource Group Creation](Screenshots/resource-group-creation.png)
 
-### 2. Network Security Group (NSG) Configuration
+### 2. Configure Identity and Access Management (IAM)
+- Set up role-based access control (RBAC) by assigning the **Owner** and **Contributor** roles.
+- ![IAM Role Setup](Screenshots/IAM-Role-Assigning.png)
+
+### 3. Network Security Group (NSG) Configuration
 
 **Purpose**: Control inbound and outbound traffic to secure Azure resources.
 
@@ -82,7 +86,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
    - Set **Destination Port Range**: 0-65535.
    - ![Deny All Outbound](Screenshots/nsg-outbound-deny-all.png)
 
-### 3. Associating NSG with a Subnet
+### 4. Associating NSG with a Subnet
 
 - **Purpose**: Apply NSG rules to resources within a subnet.
 - **Steps**:
@@ -91,7 +95,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Click **OK** to associate.
 - ![NSG Subnet Association](Screenshots/nsg-subnet-association.png)
 
-### 4. Enabling Microsoft Defender for Cloud
+### 5. Enabling Microsoft Defender for Cloud
 
 - **Purpose**: Activate compliance and threat protection features.
 - **Steps**:
@@ -100,7 +104,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Enable relevant **Defender for Cloud plans**.
 - ![Defender Settings](Screenshots/defender-settings.png)
 
-### 5. Reviewing Compliance Standards
+### 6. Reviewing Compliance Standards
 
 - **Purpose**: Review the environment's compliance with standards like **NIST** and **CIS**.
 - **Steps**:

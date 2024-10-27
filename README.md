@@ -51,36 +51,36 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - In **Azure Portal**, go to **Network Security Groups** and select **+ Create**.
   - Name the NSG `Project-NSG` and assign it to `Azure-Security-Project`.
   - Click **Review + Create**, then **Create**.
-- ![NSG Creation](screenshots/nsg-creation.png)
+- ![NSG Creation](Screenshots/nsg-creation.png)
 
 #### b. Configuring Inbound Security Rules
 
 1. **Allow SSH (Port 22)**:
    - Allows SSH access for management purposes.
    - Set **Source**: Any, **Destination Port**: 22, **Protocol**: TCP, **Action**: Allow.
-   - ![Allow SSH](screenshots/nsg-inbound-allow-ssh.png)
+   - ![Allow SSH](Screenshots/nsg-inbound-allow-ssh.png)
 
 2. **Allow HTTP (Port 80)**:
    - Allows web access over HTTP.
    - Set **Source**: Any, **Destination Port**: 80, **Protocol**: TCP, **Action**: Allow.
-   - ![Allow HTTP](screenshots/nsg-inbound-allow-http.png)
+   - ![Allow HTTP](Screenshots/nsg-inbound-allow-http.png)
 
 3. **Deny All Inbound**:
    - A catch-all rule to block other inbound traffic.
    - Set **Source** and **Destination Port**: Any, **Protocol**: Any, **Action**: Deny.
-   - ![Deny All Inbound](screenshots/nsg-inbound-deny-all.png)
+   - ![Deny All Inbound](Screenshots/nsg-inbound-deny-all.png)
 
 #### c. Configuring Outbound Security Rules
 
 1. **Allow HTTP/HTTPS (Ports 80, 443)**:
    - Allows outbound traffic over HTTP/HTTPS.
    - Set **Destination Port Range**: 80, 443.
-   - ![Allow HTTP/HTTPS Outbound](screenshots/nsg-outbound-allow-http-https.png)
+   - ![Allow HTTP/HTTPS Outbound](Screenshots/nsg-outbound-allow-http-https.png)
 
 2. **Deny All Outbound**:
    - Blocks all other outbound traffic.
    - Set **Destination Port Range**: 0-65535.
-   - ![Deny All Outbound](screenshots/nsg-outbound-deny-all.png)
+   - ![Deny All Outbound](Screenshots/nsg-outbound-deny-all.png)
 
 ### 3. Associating NSG with a Subnet
 
@@ -89,7 +89,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Go to **Settings** > **Subnets** in the NSG.
   - Select the virtual network and subnet (e.g., `Project-VNet` and `Project-Subnet`).
   - Click **OK** to associate.
-- ![NSG Subnet Association](screenshots/nsg-subnet-association.png)
+- ![NSG Subnet Association](Screenshots/nsg-subnet-association.png)
 
 ### 4. Enabling Microsoft Defender for Cloud
 
@@ -98,7 +98,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Go to **Microsoft Defender for Cloud** in Azure Portal.
   - Select **Upgrade** to activate Defender features, or start a free trial if needed.
   - Enable relevant **Defender for Cloud plans**.
-- ![Defender Settings](screenshots/defender-settings.png)
+- ![Defender Settings](Screenshots/defender-settings.png)
 
 ### 5. Reviewing Compliance Standards
 
@@ -106,7 +106,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
 - **Steps**:
   - In **Microsoft Defender for Cloud**, go to **Regulatory Compliance**.
   - Select a standard (e.g., **NIST SP 800-53**) to view compliance status.
-- ![Compliance Dashboard](screenshots/compliance-dashboard.png)
+- ![Compliance Dashboard](Screenshots/compliance-dashboard.png)
 
 ## Technologies Used
 
@@ -127,13 +127,13 @@ This project demonstrates how to set up basic security controls and compliance m
 
 Below are links to key screenshots used throughout the project:
 
-- [Resource Group Creation](screenshots/resource-group-creation.png)
-- [NSG Creation](screenshots/nsg-creation.png)
-- [Allow SSH Inbound Rule](screenshots/nsg-inbound-allow-ssh.png)
-- [Allow HTTP Inbound Rule](screenshots/nsg-inbound-allow-http.png)
-- [Deny All Inbound Rule](screenshots/nsg-inbound-deny-all.png)
-- [Allow HTTP/HTTPS Outbound Rule](screenshots/nsg-outbound-allow-http-https.png)
-- [Deny All Outbound Rule](screenshots/nsg-outbound-deny-all.png)
-- [NSG Subnet Association](screenshots/nsg-subnet-association.png)
-- [Defender Settings](screenshots/defender-settings.png)
-- [Compliance Dashboard](screenshots/compliance-dashboard.png)
+- [Resource Group Creation](Screenshots/resource-group-creation.png)
+- [NSG Creation](Screenshots/nsg-creation.png)
+- [Allow SSH Inbound Rule](Screenshots/nsg-inbound-allow-ssh.png)
+- [Allow HTTP Inbound Rule](Screenshots/nsg-inbound-allow-http.png)
+- [Deny All Inbound Rule](Screenshots/nsg-inbound-deny-all.png)
+- [Allow HTTP/HTTPS Outbound Rule](Screenshots/nsg-outbound-allow-http-https.png)
+- [Deny All Outbound Rule](Screenshots/nsg-outbound-deny-all.png)
+- [NSG Subnet Association](Screenshots/nsg-subnet-association.png)
+- [Defender Settings](Screenshots/defender-settings.png)
+- [Compliance Dashboard](Screenshots/compliance-dashboard.png)

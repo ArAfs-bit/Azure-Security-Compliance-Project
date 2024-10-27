@@ -39,7 +39,7 @@ The goal of this project is to apply security best practices in Microsoft Azure 
   - Go to **Azure Portal** > **Resource Groups** > **+ Create**.
   - Name the resource group `Azure-Security-Project`.
   - Select a region, review, and click **Create**.
-- ![Resource Group Creation](screenshots/resource-group-creation.png)
+- ![Resource Group Creation](Screenshots/resource-group-creation.png)
 
 ### 2. Network Security Group (NSG) Configuration
 
